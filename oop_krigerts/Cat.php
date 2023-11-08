@@ -1,14 +1,11 @@
 <?php
+class Cat extends Animal{
 
-class Cat{
-    public $name;
-    private $age = 0;
-
-    public function birthday(){
-        $this->age+=1;
+    public function __construct(){
+        echo " Puss in Boots <br>";
     }
-    static function moew(){
-        echo "moew!";
+    static function eat(){
+        echo "I like whiskas ! <br>";
     }
 }
 

@@ -17,7 +17,10 @@ $Mincis->birthday();
 $Brincis = new Cat;
 $Brincis->name = "Brincis";
 echo $Brincis->name . "<br>";
+$Brincis->birthday();
 
 
 Cat::moew();
+
+//lol
 ?>
